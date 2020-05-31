@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.3/dist/basicLightbox.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <title>Frontend project</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">Flovers</div>
+        <nav class="navigation">
+          <ul class="navigationList">
+            <li class="navLink"><a data-page="bookets" class="activeNavLink" href="#">Букеты</a></li>
+            <li class="navLink"><a data-page="buskets" href="#">Корзины</a></li>
+            <li class="navLink"><a data-page="news" href="#">Новинки</a></li>
+          </ul>
+        </nav>
+        <div class="rightMenu">
+          <div class="borderLine"></div>
+          <div class="headerCart cartForModal">
+            <img src="http://s1.iconbird.com/ico/2013/9/430/w128h1281378622383catcart.png" alt="cartImage" class="headerCartIMG" />
+          </div>
+          <div class="borderLine"></div>
+          <div class="auth">
+            <span class="userName">Guest</span>
+            <div class="userProfile"><img src="https://www.pngitem.com/pimgs/m/226-2260470_transparent-admin-icon-png-admin-logo-png-png.png" alt="userIcon" class="userIcon" /></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main">
+        <p class="pageName"></p>
+        <ul class="listItems"></ul>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.3/dist/basicLightbox.min.js"></script>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
